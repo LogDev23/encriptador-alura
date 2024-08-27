@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="img/Logo.svg" alt="logo de alura">
+    </header>
+    <main>
+        <section class="section1">
+            <textarea class="text-area" cols="50" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            <div class="alerta">
+                <img class="imgInfo" src="img/info.svg" alt="mensaje de alerta">
+                <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="botones">
+                
+                <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+            </div>
+            
+        </section>
+        <section class="section2">
+            <textarea class="mensaje" cols="20" rows="10"></textarea>
+            <div class="content">
+                <p>Ningún mensaje fue encontrado</p>
+                <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+            <div>
+                <button class="copiar" onclick="copiar()">Copiar</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        Hecho con ❤️ por Orlando Castillo. Sigueme en mis redes
+        <a href="https://github.com/LogDev23" target="_blank"><img src="img/github.svg" alt="Github"></a>
+        <a href="https://www.linkedin.com/in/orlando-cgold/" target="_blank"><img src="img/linkedin.svg" alt="linkedin"></a>
+    </footer>
+    <script src="assets/main.js"></script>
+</body>
+
+</html>
